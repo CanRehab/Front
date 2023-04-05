@@ -1,0 +1,122 @@
+.img {
+    position: absolute;
+    height: 609px;
+    width: 600px;
+    display: flex;
+    float: left;
+    Left: 0px;
+    Top: 0px;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    height: 509px;
+    width: 600px;
+    float: right;
+    margin-top: 0px;
+    margin-left: 600px;
+    background-color: #ffffff;
+}
+
+
+.logologin {
+    position: absolute;
+    height: 30px;
+    width: 105px;
+    margin-top: 120px;
+    margin-left: 330px;
+}
+
+.titlelogin {
+    position: absolute;
+    font-size: 10px;
+    color: #DDDDDD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 175px;
+    margin-left: 280px;
+}
+
+.usernamelogin {
+    position: absolute;
+    width: 350px;
+    height: 20px;
+    margin-top: 230px;
+    margin-left: 200px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1.5px solid #DDDDDD;
+    font-size: 11px;
+}
+
+.passwordlogin {
+    position: absolute;
+    width: 350px;
+    height: 20px;
+    margin-top: 280px;
+    margin-left: 200px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1.5px solid #DDDDDD;
+    font-size: 11px;
+}
+
+.logininputs {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 200px;
+}
+
+.inputlogin {
+    position: absolute;
+    width: 145px;
+    height: 40px;
+    margin-top: 55px;
+    margin-left: 0px;
+    border-color: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    background: #2cd889;
+    color: #ffffff;
+}
+
+.inputsignuplog {
+    position: absolute;
+    width: 145px;
+    height: 40px;
+    margin-top: 55px;
+    margin-left: 160px;
+    border-color: #2cd889;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    background-color: #fff;
+
+}
+
+.inputsignuplog h6{
+    color: #7B8FA1;
+    text-decoration: none;
+    margin-top: 13px;
+    margin-left: 8px;
+    font-size: 10px;
+}
+
+.forgotpassword {
+    position: absolute;
+    color: #7B8FA1;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -16px;
+    margin-left: 250px;
+    width: 101px;
+    height: 12px;
+}
+
+.forgotpassword:hover {
+    text-decoration: underline;
+}

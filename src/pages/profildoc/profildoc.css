@@ -1,0 +1,254 @@
+
+.address{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 550px;
+    }
+    
+    .address h5{
+        text-align: center;
+        color: #2cd889;
+        font-size: 10px;
+         font-family: var(--font-family);
+        margin-top: 15px;
+    }
+    
+    .rightprofil {
+        display: flex;
+        position: absolute;
+        width: 250px;
+        height: 200px;
+        margin-top: -20px;
+    }
+    
+    .rightprofil h4 {
+        position: absolute;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 60;
+        line-height: 20px;
+        text-align: center;
+        color: #707070;
+        margin-top: 130px;
+        margin-left: 80px;
+        font-style: italic;
+    
+    }
+    
+    .rpbox {
+        position: absolute;
+        width: 220px;
+        height: 350px;
+        border-radius: 10px;
+        background: #ffffff;
+        margin-top: 180px;
+        margin-left: 75px;
+    }
+    
+.rpi {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+    margin-left: 65px;
+}
+
+.rpdname {
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 80px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #040e28;
+}
+
+.rpjob {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 65px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #a6b1c2;
+}
+
+.rpemail {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 68px;
+    font-size: 10px;
+    font-family: "open sans";
+    font-weight: bold;
+    line-height: 24px;
+    font-style: normal;
+    text-align: center;
+    color: #2cd889;
+}
+
+.rpline {
+    position: absolute;
+    width: 190px;
+    height: .8px;
+    margin-top: 150px;
+    margin-left: 12px;
+    opacity: 0.10;
+    background: #000000
+}
+
+.rpbtext {
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 12px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    text-align: left;
+    color: #040e28;
+}
+
+.rpicon {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    margin-top: 190px;
+    margin-left: 10px;
+}
+
+.rpicontext {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 35px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    text-align: left;
+    color: #040e28;
+}
+
+.rpicontextt {
+    position: absolute;
+    margin-top: 202px;
+    margin-left: 35px;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    text-align: left;
+    color: #a6b1c2;
+}
+
+.rpicon2 {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    margin-top: 240px;
+    margin-left: 10px;
+}
+
+.rpicontext2 {
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 35px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    text-align: left;
+    color: #040e28;
+}
+
+.rpicontextt2 {
+    position: absolute;
+    margin-top: 246px;
+    margin-left: 35px;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    text-align: left;
+    color: #a6b1c2;
+}
+
+.rpicon3 {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    margin-top: 280px;
+    margin-left: 10px;
+}
+
+.rpicontext3 {
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 35px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    text-align: left;
+    color: #040e28;
+}
+
+.leftprofil {
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    margin-top: -40px;
+
+}
+
+.lp1 {
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+.lp2 {
+    margin-top: 0px;
+    margin-left: 450px;
+}
+
+.lp3 {
+    margin-top: 150px;
+    margin-left: 0px;
+}
+
+.lp4 {
+    margin-top: 150px;
+    margin-left: 450px;
+}
+
+.lpbox {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    background: #2cd889;
+    margin-top: 340px;
+    margin-left: 630px;
+}
+
+.lpboxtext {
+    position: absolute;
+    font-size: 16px;
+    line-height: 40px;
+    font-style: normal;
+    text-align: left;
+    color: #f5f5f5;
+    margin-top: 1px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}

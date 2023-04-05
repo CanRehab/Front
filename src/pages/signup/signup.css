@@ -1,0 +1,171 @@
+.img {
+    position: absolute;
+    height: 609px;
+    width: 600px;
+    display: flex;
+    float: left;
+    Left: 0px;
+    Top: 0px;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    height: 509px;
+    width: 600px;
+    float: right;
+    margin-top: 0px;
+    margin-left: 600px;
+    background-color: #ffffff;
+}
+
+.logosignup {
+    position: absolute;
+    display: flex;
+    height: 30px;
+    width: 105px;
+    margin-top: 50px;
+    margin-left: 360px;
+}
+
+.titlesignup {
+    position: absolute;
+    font-size: 12px;
+    color: #DDDDDD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-left: 310px;
+}
+
+.firstname {
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    margin-top: 150px;
+    margin-left: 260px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1.5px solid #DDDDDD;
+    font-size: 11px;
+}
+
+.lastname {
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    margin-top: 150px;
+    margin-left: 410px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1.5px solid #DDDDDD;
+    font-size: 11px;
+}
+
+.username {
+    position: absolute;
+    width: 280px;
+    height: 20px;
+    margin-top: 200px;
+    margin-left: 260px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1.5px solid #DDDDDD;
+    font-size: 11px;
+}
+
+.email {
+    position: absolute;
+    width: 280px;
+    height: 20px;
+    margin-top: 250px;
+    margin-left: 260px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1.5px solid #DDDDDD;
+    font-size: 11px;
+}
+
+.password {
+    position: absolute;
+    width: 280px;
+    height: 20px;
+    margin-top: 300px;
+    margin-left: 260px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1.5px solid #DDDDDD;
+    font-size: 11px;
+}
+
+.confirmpassword {
+    position: absolute;
+    width: 280px;
+    height: 20px;
+    margin-top: 350px;
+    margin-left: 260px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1.5px solid #DDDDDD;
+    font-size: 11px;
+}
+
+.signupinputs {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 260px;
+}
+
+.remember {
+    position: absolute;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7B8FA1;
+    margin-top: -16px;
+    margin-left: 30px;
+    width: 200px;
+    height: 12px;
+}
+
+.remember-box {
+    margin: 0px;
+}
+
+.inputsignup {
+    position: absolute;
+    width: 125px;
+    height: 40px;
+    margin-top: 55px;
+    margin-left: 60px;
+    border-color: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    background: #2cd889;
+    position: absolute;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.linkbtn {
+    position: absolute;
+    width: 229px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 100px;
+    margin-left: 25px;
+    font-style: normal;
+    text-align: center;
+    color: #7B8FA1;
+    text-decoration: none;
+}
+

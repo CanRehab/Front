@@ -1,0 +1,70 @@
+.clinics{
+    display: flex;
+}
+
+.group-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.groupa{
+    flex: 1;
+    display:grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-gap: 200px;
+}
+
+.groupb{
+    margin-top: 210px;
+    margin-left: -1050px;
+    flex: 1;
+    display:grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-gap: 200px;
+}
+
+.address{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 550px;
+    }
+    
+    .address h5{
+        text-align: center;
+        color: #2cd889;
+        font-size: 10px;
+         font-family: var(--font-family);
+        margin-top: 15px;
+    }
+    
+    .address h6{
+        width: 173px;
+        height: 11px;
+        margin-top: 5px;
+        font-size: 8px;
+        text-align: center;
+        color: #646d82;
+    }
+
+    .msg{
+        position: absolute;
+        display: flex;
+        font-size: 10px;
+        font-style: normal;
+        color: #646d82;
+        text-decoration: none;
+        margin-left: 65px;
+        margin-top: 290px;
+        text-align: center;
+    }
+
+    .vp{
+        position: absolute;
+        font-size: 10px;
+        font-style: normal;
+        color: #646d82;
+        text-decoration: none;
+        margin-left: 160px;
+        margin-top: 290px;
+        text-align: center;
+    }

@@ -1,0 +1,87 @@
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxc{
+    display: flex;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 30px;
+    width: 220px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.boxc:hover,
+.boxc:focus {
+    cursor: pointer;
+    color: #2cd98a;
+    opacity: 40%;
+}
+
+.imgUrl{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #f0faf8;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.drname {
+    position: absolute;
+    font-size: 10px;
+    font-style: normal;
+    text-align: center;
+    color: #646d82;
+    margin-top: 110px;
+    margin-left: 70px;
+}
+
+.textm {
+    position: absolute;
+    font-size: 10px;
+    font-style: normal;
+    color: #646d82;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 175px;
+    text-align: center;
+}
+
+.textv {
+    margin-top: 175px;
+    position: absolute;
+    font-size: 10px;
+    font-style: normal;
+    color: #646d82;
+    text-decoration: none;
+    margin-left: 138px;
+    text-align: center;
+}
+
+.linew {
+    position: absolute;
+    width: 220px;
+    height: 1px;
+    border-color: #dbede9;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 160px;
+    margin-left: 0;
+}
+
+.lineh {
+    position: absolute;
+    width: 1px;
+    height: 38px;
+    border-color: #d8eae6;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 160px;
+    margin-left: 110px;
+}
+

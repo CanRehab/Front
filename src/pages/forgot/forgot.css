@@ -1,0 +1,66 @@
+
+
+.img {
+    position: absolute;
+    display: flex;
+    height: 609px;
+    width: 600px;
+    display: flex;
+    float: left;
+    Left: 0px;
+    Top: 0px;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    height: 509px;
+    width: 600px;
+    display: flex;
+    float: right;
+    margin-top: 0px;
+    margin-left: 510px;
+}
+.logoforgot {
+    position: absolute;
+    height: 30px;
+    width: 105px;
+    margin-top: 120px;
+    margin-left: 300px;
+}
+
+.titleforgot {
+    position: absolute;
+    font-size: 10px;
+    color: #DDDDDD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 175px;
+    margin-left: 240px;
+}
+
+#emailforgot {
+    position: absolute;
+    width: 350px;
+    height: 20px;
+    margin-top: 230px;
+    margin-left: 200px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1.5px solid #DDDDDD;
+    font-size: 11px;
+}
+
+#inputforgot {
+    position: absolute;
+    width: 145px;
+    height: 40px;
+    margin-top: 300px;
+    margin-left: 300px;
+    border-color: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    background: #2cd889;
+    color: #ffffff;
+}

@@ -1,0 +1,69 @@
+.iconapp{
+    position: absolute;
+    width: 24.7px;
+    height: 24.2px;
+    margin-top: 25px;
+    margin-left: 180px;
+}
+
+.apptitle{
+    position: absolute;
+    width: 287px;
+    height: 31px;
+    font-family: "segoe ui";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    font-style: normal;
+    text-align: left;
+    color: #0c233c;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.apptext1{
+    position: absolute;
+    width: 272px;
+    height: 19px;
+    opacity: 0.70;
+    font-family: "segoe ui";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    font-style: normal;
+    text-align: left;
+    color: #222222;
+    margin-top: 180px;
+    margin-left: 110px;
+}
+.apptext2{
+    position: absolute;
+    width: 200px;
+    height: 19px;
+    opacity: 0.70;
+    font-family: "segoe ui";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    font-style: normal;
+    text-align: left;
+    color: #222222;
+    margin-top: 200px;
+    margin-left: 110px;
+}
+
+.apptext3{
+    position: absolute;
+    width: 272px;
+    height: 19px;
+    opacity: 0.70;
+    font-family: "segoe ui";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    font-style: normal;
+    text-align: left;
+    color: #222222;
+    margin-top: 235px;
+    margin-left: 110px;
+}

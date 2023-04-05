@@ -1,0 +1,115 @@
+.basic{
+    display: flex;
+    position: absolute;
+    margin-top: 25px;
+}
+
+.previous{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #ffffff;
+    margin-top: 523px;
+    margin-left: 1100px;
+    border-radius: 3px;
+    font-size: 10px;
+
+}
+.previous :hover,
+.previous :focus{
+    cursor: pointer;
+    color: #2cd98a;
+    opacity: 40%;
+}
+
+.next{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #ffffff;
+    margin-top: 523px;
+    margin-left: 1220px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+.next :hover,
+.next :focus{
+    cursor: pointer;
+    color: #2cd98a;
+    opacity: 40%;
+}
+
+.num1{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    margin-top: 523px;
+    margin-left: 1120px;
+    background: #2cd889;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+.num2 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #ffffff;
+    margin-top: 523px;
+    margin-left: 1140px;
+    border-radius: 3px;
+    font-size: 10px;
+
+}
+
+.num3 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #ffffff;
+    margin-top: 523px;
+    margin-left: 1160px;
+    border-radius: 3px;
+    font-size: 10px;
+
+}
+
+.num4 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #ffffff;
+    margin-top: 523px;
+    margin-left: 1180px;
+    border-radius: 3px;
+    font-size: 10px;
+
+}
+
+.num5 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #ffffff;
+    margin-top: 523px;
+    margin-left: 1200px;
+    border-radius: 3px;
+    font-size: 10px;
+
+}
+
+.number{
+    position: absolute;
+    width: 9px;
+    height: 11px;
+    opacity: 0.50;
+    font-family: "avenir";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: normal;
+    text-align: center;
+    color: #4d4f5c;
+    margin-left: 3px;
+    margin-top: -1px;
+}
