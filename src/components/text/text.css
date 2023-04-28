@@ -13,8 +13,8 @@
     position: absolute;
     margin-top: 230px;
     margin-left: 450px;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-family: var(--font-family);
     font-style: normal;
     text-align: left;
     color: #707070;
@@ -22,12 +22,11 @@
 
 .textp{
     position: absolute;
-    margin-top: 255px;
+    margin-top: 265px;
     margin-left: 450px;
-    margin-right: 600px;
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-family: var(--font-family);
     color: #707070;
     font-weight: 200;
-    width: 160px;
+    width: 190px;
 }

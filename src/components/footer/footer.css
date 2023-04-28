@@ -33,6 +33,6 @@
     display: block;
     min-width: 10px;
     margin: 20px;
-    font-size: 8px;
-    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-family: var(--font-family);
 }

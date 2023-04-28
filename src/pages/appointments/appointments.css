@@ -1,0 +1,25 @@
+.appointments{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.appointments-box {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.titlemes {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    color: #2cd889;
+    margin-top:110px;
+    margin-left: 710px;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 400;
+
+}

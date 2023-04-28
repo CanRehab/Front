@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import Content from "../../components/content/Content";
-import imgsignin from '../../imgsignin.jpeg';
-import logo from '../../logo.jpeg';
+import imgsignin from '../../assets/imgsignin.jpeg';
+import logo from '../../assets/logo.jpeg';
 import './login.css';
 
 
-const Login = () =>{
+const Login = () => {
 
     const history = useNavigate();
 
@@ -45,15 +45,15 @@ const Login = () =>{
 
         const { username, password } = inpval;
         if (username === "") {
-            alert(' username field is requred!',{
+            alert(' username field is requred!', {
                 position: "top-center",
             });
         } else if (password === "") {
-            alert('password field is requred',{
+            alert('password field is requred', {
                 position: "top-center",
             });
         } else if (password.length < 5) {
-            alert('password length greater five',{
+            alert('password length greater five', {
                 position: "top-center",
             });
         } else {
@@ -78,39 +78,39 @@ const Login = () =>{
     }
 
     return (
-    <div>
-     <div class="img">
-    <img src={imgsignin} />
-     </div>
+        <div>
+            <div class="img">
+                <img src={imgsignin} />
+            </div>
 
-    <div class="container">
-        <img class="logologin" src={logo} />
-          <h5 class="titlelogin">
-            Welcome bake! please login to your account.
-          </h5>
+            <div class="container">
+                <img class="logologin" src={logo} />
+                <h5 class="titlelogin">
+                    Welcome bake! please login to your account.
+                </h5>
 
 
-          <form method="post" action="../logindb">
-             <input name='username' onChange={getdata} placeholder="Username" className="usernamelogin" />
-             <input name='password' onChange={getdata}  className="passwordlogin" placeholder="Password"/>
-                
+                <form method="post" action="../logindb">
+                    <input name='username' onChange={getdata} placeholder="Username" className="usernamelogin" />
+                    <input name='password' onChange={getdata} className="passwordlogin" placeholder="Password" />
 
-          <div class="logininputs">
-             <input type="checkbox" className="remember-box" />
-             <h6 className="remember"> Remember me. </h6>
 
-             <h6 className="forgotpassword"> <NavLink to="/forgot">Forgot Password?</NavLink></h6>
-                 
-             <button type="submit" className="inputlogin" onClick={addData}>Login</button>
-             <button type="submit" className="inputsignuplog"><NavLink to="/"> <h6> Sign Up</h6></NavLink> </button>
+                    <div class="logininputs">
+                        <input type="checkbox" className="remember-box" />
+                        <h6 className="remember"> Remember me. </h6>
 
-          </div>
+                        <Link to="/forgot" className="forgotpassword">Forgot Password?</Link>
 
-            <Content endpage="Terms of use. Privacy policy" />
-            </form>
-                
-    </div>
-            
+                        <button type="submit" className="inputlogin" onClick={addData}>Login</button>
+                        <Link to="/" className="inputsignuplog"> <h6> Sign Up</h6></Link>
+
+                    </div>
+
+                    <Content endpage="Terms of use. Privacy policy" />
+                </form>
+
+            </div>
+
         </div>
     )
 }

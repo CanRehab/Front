@@ -3,7 +3,7 @@ import './counter.css'
 
 const Counter = () => {
   return (
-    <div className='basic'>
+    <div className='counter'>
     <p className='previous'> <a class="number">◀</a> </p>
     <p className='num1'> <a class="number" >1</a> </p>
     <p className='num2'><a class="number" >2</a> </p>

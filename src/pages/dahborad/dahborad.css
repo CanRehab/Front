@@ -1,18 +1,25 @@
-.dahborad{
+.dahborad {
     display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.dahborad-box {
+    display: flex;
+    margin-top: 130px;
+    margin-left: 20px;
 }
 
 .right-top {
     width: 260px;
-    height: 160px;
+    height: 210px;
     border-radius: 15px;
     background-color: #fff;
     display: flex;
     position: relative;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 12px;
-    margin-top: 100px;
-    margin-left: 20px;
 }
 
 .namep {
@@ -27,7 +34,7 @@
     position: absolute;
     width: 30px;
     height: 31px;
-    margin-top: 43px;
+    margin-top: 50px;
     margin-left: 115px;
 }
 
@@ -59,23 +66,23 @@
 
 .right-bottom {
     width: 260px;
-    height: 260px;
+    height: 330px;
     border-radius: 15px;
     background-color: #fff;
-    margin-top: 280px;
+    margin-top: 220px;
     margin-left: -260px;
     display: flex;
     position: relative;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 12px;
 }
 
 .yo {
     position: absolute;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    font-style: normal;
+    font-style: solid;
     color: #646d82;
     margin-top: 20px;
     margin-left: 60px;
@@ -89,30 +96,30 @@
     font-style: normal;
     text-align: left;
     color: #646d82;
-    margin-top: 40px;
-    margin-left: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .dayimg {
     position: absolute;
     width: 170px;
-    height: 170px;
+    height: 200px;
     border-radius: 6px;
-    margin-top: 70px;
-    margin-left: 45px;
+    margin-top: 90px;
+    margin-left: 50px;
 }
 
 .left-sec {
-    width: 900px;
-    height: 440px;
+    width: 1150px;
+    height: 550px;
     border-radius: 15px;
     background-color: #fff;
     display: flex;
     position: relative;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 12px;
-    margin-left:30px ;
-    margin-top: 100px;
+    margin-left: 30px;
+    margin-top: 0px;
 }
 
 .imgp2 {
@@ -125,7 +132,7 @@
 
 .in {
     position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 10px;
     font-weight: 400;
     line-height: 24px;
@@ -138,10 +145,10 @@
     position: absolute;
     width: 49px;
     height: 23px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 24px;
-    font-style: normal;
+    font-style: solid;
     text-align: left;
     color: #040e28;
     margin-top: 60px;
@@ -150,36 +157,36 @@
 
 .sm {
     position: absolute;
-    font-size: 8px;
+    font-size: 10px;
     line-height: 15px;
     color: #a6b1c2;
-    margin-top: 80px;
+    margin-top: 82px;
     margin-left: 23px;
-    margin-right: 250px;
+    margin-right: 350px;
 }
 
 .di {
     position: absolute;
     width: 45px;
     height: 23px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 24px;
-    font-style: normal;
+    font-style: solid;
     text-align: left;
     color: #040e28;
-    margin-top: 130px;
+    margin-top: 150px;
     margin-left: 20px;
 }
 
 .ev {
     position: absolute;
-    font-size: 8px;
+    font-size: 10px;
     line-height: 15px;
     color: #a6b1c2;
-    margin-top: 150px;
+    margin-top: 170px;
     margin-left: 23px;
-    margin-right: 460px;
+    margin-right: 600px;
 }
 
 .mi {
@@ -198,18 +205,18 @@
 
 .im1 {
     position: absolute;
-    width: 180px;
-    height: 80px;
-    margin-top: 200px;
+    width: 280px;
+    height: 120px;
+    margin-top: 230px;
     margin-left: 23px;
     border-radius: 10px;
 }
 
 .im3 {
     position: absolute;
-    width: 180px;
-    height: 80px;
-    margin-top: 290px;
+    width: 280px;
+    height: 120px;
+    margin-top: 360px;
     margin-left: 23px;
     border-radius: 10px;
 
@@ -225,7 +232,7 @@
     font-style: normal;
     text-align: left;
     color: #646d82;
-    margin-top: 370px;
+    margin-top: 490px;
     margin-left: 20px;
 }
 
@@ -239,8 +246,8 @@
     font-style: normal;
     text-align: left;
     color: #646d82;
-    margin-top: 390px;
-    margin-left: 80px;
+    margin-top: 510px;
+    margin-left: 60px;
 
 }
 
@@ -254,27 +261,28 @@
     font-style: normal;
     text-align: left;
     color: #a6b1c2;
-    margin-top: 400px;
-    margin-left: 80px;
+    margin-top: 520px;
+    margin-left: 60px;
 
 }
 
 .im2 {
     position: absolute;
-    width: 180px;
-    height: 80px;
-    margin-top: 200px;
-    margin-left: 600px;
+    width: 280px;
+    height: 120px;
+    margin-top: 230px;
+    margin-left: 800px;
     border-radius: 10px;
 }
 
 .im4 {
     position: absolute;
-    width: 180px;
-    height: 80px;
-    margin-top: 290px;
-    margin-left: 600px;
+    width: 280px;
+    height: 120px;
+    margin-top: 360px;
+    margin-left: 800px;
     border-radius: 10px;
+
 }
 
 .re {
@@ -287,10 +295,10 @@
     font-style: normal;
     text-align: left;
     color: #646d82;
-    margin-top: 370px;
-    margin-left: 600px;
-
+    margin-top: 490px;
+    margin-left: 800px;
 }
+
 .te {
     position: absolute;
     width: 127px;
@@ -301,8 +309,8 @@
     font-style: normal;
     text-align: left;
     color: #646d82;
-    margin-top: 390px;
-    margin-left: 640px;
+    margin-top: 510px;
+    margin-left: 830px;
 
 }
 
@@ -316,7 +324,7 @@
     font-style: normal;
     text-align: left;
     color: #a6b1c2;
-    margin-top: 400px;
-    margin-left: 645px;
+    margin-top: 520px;
+    margin-left: 850px;
 
 }

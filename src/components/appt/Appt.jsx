@@ -1,11 +1,11 @@
 import React from 'react';
 import './appt.css';
-import iconapp from '../../iconapp.jpeg'
+import iconapp from '../../assets/iconapp.jpeg'
 
 const Appt = () => {
   return (
 
-    <div className='appbox'>
+    <div className='apptbox'>
 
     <img className='iconapp' src={iconapp} />
     <h6 className='apptitle'>Thanks for booking! </h6>

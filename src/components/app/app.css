@@ -1,67 +1,55 @@
-
 .appbox {
     position: absolute;
-    width: 400px;
-    height: 400px;
+    width: 550px;
+    height: 500px;
     border-color: #ffffff;
     border-width: 1px;
     border-style: solid;
     border-radius: 48px;
     filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.06));
     background: #ffffff;
-    margin-top: 120px;
-    margin-left: 450px;
+    margin-top: 150px;
+    margin-left: 500px;
 }
 
 .appboxtext {
     position: absolute;
     width: 779px;
     height: 25px;
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     text-align: left;
     color: #a5acb9;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 35px;
+    margin-left: 25px;
 }
 
 .appboxsel1 {
     display: flex;
     position: absolute;
-    margin-top: 40px;
-    margin-left: 30px;
+    margin-top: 80px;
+    margin-left: 50px;
 }
+
 
 .appboxseltitle {
     position: absolute;
     width: 51px;
     height: 11px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 11px;
     font-weight: 500;
     line-height: 14px;
     font-style: normal;
     text-align: center;
     color: rgba(12, 35, 60, 0.77);
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 0px;
 }
 
 
-#appboxslb1 {
-    position: absolute;
-    width: 50px;
-    height: 22px;
-    border-color: #e2e5ff;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 6px;
-    filter: drop-shadow(0px 3px 3px rgba(155, 155, 155, 0.16));
-    margin-top: 30px;
-    margin-left: 15px;
-}
 .appboxslb1 {
     position: absolute;
     width: 50px;
@@ -71,12 +59,12 @@
     border-style: solid;
     border-radius: 6px;
     filter: drop-shadow(0px 3px 3px rgba(155, 155, 155, 0.16));
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 15px;
 }
 
 .appboxsel1text {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 10px;
     font-weight: 400;
     line-height: 15px;
@@ -97,15 +85,15 @@
     border-style: solid;
     border-radius: 6px;
     filter: drop-shadow(0px 3px 3px rgba(155, 155, 155, 0.16));
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 10px;
     font-weight: 400;
     line-height: 15px;
     font-style: normal;
     text-align: center;
     color: rgba(12, 35, 60, 0.87);
-    margin-top: 30px;
-    margin-left: 140px;
+    margin-top: 40px;
+    margin-left: 180px;
 }
 
 .appboxslb3 {
@@ -117,15 +105,15 @@
     border-style: solid;
     border-radius: 6px;
     filter: drop-shadow(0px 3px 3px rgba(155, 155, 155, 0.16));
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 10px;
     font-weight: 400;
     line-height: 15px;
     font-style: normal;
     text-align: center;
     color: rgba(12, 35, 60, 0.87);
-    margin-top: 30px;
-    margin-left: 265px;
+    margin-top: 40px;
+    margin-left: 335px;
 }
 
 .appboxslb4 {
@@ -137,14 +125,14 @@
     border-style: solid;
     border-radius: 6px;
     filter: drop-shadow(0px 3px 3px rgba(155, 155, 155, 0.16));
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 10px;
     font-weight: 400;
     line-height: 15px;
     font-style: normal;
     text-align: center;
     color: rgba(12, 35, 60, 0.87);
-    margin-top: 80px;
+    margin-top: 90px;
     margin-left: 15px;
 }
 
@@ -157,29 +145,29 @@
     border-style: solid;
     border-radius: 6px;
     filter: drop-shadow(0px 3px 3px rgba(155, 155, 155, 0.16));
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 10px;
     font-weight: 400;
     line-height: 15px;
     font-style: normal;
     text-align: center;
     color: rgba(12, 35, 60, 0.87);
-    margin-top: 80px;
-    margin-left: 140px;
+    margin-top: 90px;
+    margin-left: 180px;
 }
 
 .appboxsel2 {
     display: flex;
     position: absolute;
-    margin-top: 190px;
-    margin-left: 30px;
+    margin-top: 220px;
+    margin-left: 50px;
 }
 
 .appboxsel3 {
     display: flex;
     position: absolute;
-    margin-top: 290px;
-    margin-left: 30px;
+    margin-top: 320px;
+    margin-left: 50px;
 }
 
 .appboxsel1text:hover,
@@ -189,9 +177,8 @@
 
 }
 
-.num1:hover,
-.num1:focus {
+.appboxslb1:hover,
+.appboxslb1:focus {
     cursor: pointer;
-    color: #2cd889;
-
+    background-color: #7ecca7;
 }

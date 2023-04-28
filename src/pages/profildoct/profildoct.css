@@ -1,50 +1,52 @@
-
-.address{
+.profildoc {
+    display: flex;
     position: absolute;
-    margin-top: 75px;
-    margin-left: 550px;
-    }
-    
-    .address h5{
-        text-align: center;
-        color: #2cd889;
-        font-size: 10px;
-         font-family: var(--font-family);
-        margin-top: 15px;
-    }
-    
-    .rightprofil {
-        display: flex;
-        position: absolute;
-        width: 250px;
-        height: 200px;
-        margin-top: -20px;
-    }
-    
-    .rightprofil h4 {
-        position: absolute;
-        font-size: 16px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 60;
-        line-height: 20px;
-        text-align: center;
-        color: #707070;
-        margin-top: 130px;
-        margin-left: 80px;
-        font-style: italic;
-    
-    }
-    
-    .rpbox {
-        position: absolute;
-        width: 220px;
-        height: 350px;
-        border-radius: 10px;
-        background: #ffffff;
-        margin-top: 180px;
-        margin-left: 75px;
-    }
-    
+    left: 0;
+    top: 0;
+}
+
+.address h5 {
+    display: flex;
+    position: relative;
+    color: #2cd889;
+    font-size: 12px;
+    font-family: var(--font-family);
+    margin-top: 190px;
+    margin-left: 650px;
+}
+
+.rightprofil {
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.rightprofil h4 {
+    position: relative;
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 60;
+    line-height: 20px;
+    text-align: center;
+    color: #707070;
+    margin-top: 130px;
+    margin-left: 90px;
+    font-style: italic;
+
+}
+
+.rpbox {
+    position: absolute;
+    width: 220px;
+    height: 350px;
+    border-radius: 10px;
+    background: #ffffff;
+    margin-top: 180px;
+    margin-left: 75px;
+}
+
 .rpi {
     position: absolute;
     width: 80px;
@@ -55,31 +57,31 @@
 
 .rpdname {
     position: absolute;
-    margin-top: 95px;
+    margin-top: 100px;
     margin-left: 80px;
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     text-align: center;
     color: #040e28;
 }
 
 .rpjob {
     position: absolute;
-    margin-top: 110px;
+    margin-top: 115px;
     margin-left: 65px;
     font-size: 10px;
     font-weight: 400;
     line-height: 24px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     text-align: center;
     color: #a6b1c2;
 }
 
 .rpemail {
     position: absolute;
-    margin-top: 122px;
+    margin-top: 130px;
     margin-left: 68px;
     font-size: 10px;
     font-family: "open sans";
@@ -94,7 +96,7 @@
     position: absolute;
     width: 190px;
     height: .8px;
-    margin-top: 150px;
+    margin-top: 160px;
     margin-left: 12px;
     opacity: 0.10;
     background: #000000
@@ -102,10 +104,10 @@
 
 .rpbtext {
     position: absolute;
-    margin-top: 155px;
+    margin-top: 166px;
     margin-left: 12px;
     font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     line-height: 24px;
     font-style: normal;
@@ -117,16 +119,16 @@
     position: absolute;
     width: 20px;
     height: 30px;
-    margin-top: 190px;
+    margin-top: 200px;
     margin-left: 10px;
 }
 
 .rpicontext {
     position: absolute;
-    margin-top: 190px;
+    margin-top: 200px;
     margin-left: 35px;
     font-size: 11px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     line-height: 24px;
     font-style: normal;
@@ -136,10 +138,10 @@
 
 .rpicontextt {
     position: absolute;
-    margin-top: 202px;
+    margin-top: 212px;
     margin-left: 35px;
     font-size: 8px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     line-height: 24px;
     font-style: normal;
@@ -151,16 +153,16 @@
     position: absolute;
     width: 15px;
     height: 20px;
-    margin-top: 240px;
+    margin-top: 250px;
     margin-left: 10px;
 }
 
 .rpicontext2 {
     position: absolute;
-    margin-top: 235px;
+    margin-top: 245px;
     margin-left: 35px;
     font-size: 11px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     line-height: 24px;
     font-style: normal;
@@ -170,10 +172,10 @@
 
 .rpicontextt2 {
     position: absolute;
-    margin-top: 246px;
+    margin-top: 256px;
     margin-left: 35px;
     font-size: 8px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     line-height: 24px;
     font-style: normal;
@@ -185,16 +187,16 @@
     position: absolute;
     width: 15px;
     height: 20px;
-    margin-top: 280px;
+    margin-top: 290px;
     margin-left: 10px;
 }
 
 .rpicontext3 {
     position: absolute;
-    margin-top: 275px;
+    margin-top: 285px;
     margin-left: 35px;
     font-size: 11px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     line-height: 24px;
     font-style: normal;
@@ -202,11 +204,13 @@
     color: #040e28;
 }
 
+
 .leftprofil {
     position: absolute;
     width: 1200px;
     height: 600px;
-    margin-top: -40px;
+    margin-top: 20px;
+    margin-left: 10px;
 
 }
 
@@ -224,6 +228,7 @@
 .lp3 {
     margin-top: 150px;
     margin-left: 0px;
+    
 }
 
 .lp4 {
@@ -236,19 +241,19 @@
     width: 250px;
     height: 40px;
     background: #2cd889;
-    margin-top: 340px;
+    margin-top: 360px;
     margin-left: 630px;
 }
 
 .lpboxtext {
     position: absolute;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 40px;
-    font-style: normal;
+    font-style: solid;
     text-align: left;
     color: #f5f5f5;
     margin-top: 1px;
-    margin-left: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    font-family: var(--font-family);
     text-decoration: none;
 }

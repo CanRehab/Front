@@ -1,6 +1,7 @@
 .img {
     position: absolute;
-    height: 609px;
+    display: flex;
+    height: 753px;
     width: 600px;
     display: flex;
     float: left;
@@ -11,8 +12,6 @@
 .container {
     position: absolute;
     display: flex;
-    height: 509px;
-    width: 600px;
     float: right;
     margin-top: 0px;
     margin-left: 600px;
@@ -32,7 +31,7 @@
     position: absolute;
     font-size: 10px;
     color: #DDDDDD;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     margin-top: 175px;
     margin-left: 280px;
 }
@@ -100,9 +99,10 @@
 .inputsignuplog h6{
     color: #7B8FA1;
     text-decoration: none;
-    margin-top: 13px;
-    margin-left: 8px;
+    margin-top: 15px;
+    margin-left: 50px;
     font-size: 10px;
+    text-decoration: none;
 }
 
 .forgotpassword {
@@ -110,8 +110,8 @@
     color: #7B8FA1;
     font-size: 10px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: -16px;
+    font-family: var(--font-family);
+    margin-top: 5px;
     margin-left: 250px;
     width: 101px;
     height: 12px;

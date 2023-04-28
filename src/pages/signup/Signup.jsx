@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
-import imgsignup from '../../imgsignup.jpeg';
-import logo from '../../logo.jpeg';
+import imgsignup from '../../assets/imgsignup.jpeg';
+import logo from '../../assets/logo.jpeg';
 import './signup.css';
 import Content from "../../components/content/Content";
 
@@ -120,7 +120,7 @@ return (
 
                     <button variant="primary" className="inputsignup" type="submit" onClick={addData}> Sign up </button>
 
-                    <h6 className="linkbtn" > <NavLink to="/login">Already have an account? sign in.</NavLink></h6>
+                  <Link className="linkbtn" to="/login">Already have an account? sign in.</Link>
 
                 </div>
                 <Content endpage="Terms of use. Privacy policy" />

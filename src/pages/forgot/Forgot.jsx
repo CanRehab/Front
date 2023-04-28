@@ -1,8 +1,8 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import React, { useState } from 'react';
-import imgfor from '../../imgfor.jpeg';
-import logo from '../../logo.jpeg';
+import imgfor from '../../assets/imgfor.jpeg';
+import logo from '../../assets/logo.jpeg';
 import Content from '../../components/content/Content'; 
 import './forgot.css';
 
@@ -79,9 +79,7 @@ const Forgot = () => {
 
     <input type="text" placeholder="Email" id="emailforgot" onChange={getdata} required/>
     <button type="submit" id="inputforgot"  onClick={addData} >
-     <NavLink to="/setting">
-       Send request
-     </NavLink>
+     <Link to="/setting" className='inpforgot'>Send request</Link>
     </button>
 
     <Content endpage="Terms of use. Privacy policy" />

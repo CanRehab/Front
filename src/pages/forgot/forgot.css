@@ -3,7 +3,7 @@
 .img {
     position: absolute;
     display: flex;
-    height: 609px;
+    height: 753px;
     width: 600px;
     display: flex;
     float: left;
@@ -33,7 +33,7 @@
     position: absolute;
     font-size: 10px;
     color: #DDDDDD;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     margin-top: 175px;
     margin-left: 240px;
 }
@@ -63,4 +63,18 @@
     border-radius: 4px;
     background: #2cd889;
     color: #ffffff;
+}
+
+.inpforgot{
+position: absolute;
+width: 229px;
+height: 15px;
+font-family: var(--font-family);
+font-size: 14px;
+margin-left: -110px;
+margin-top: -5px;
+font-style: normal;
+text-align: center;
+color: #7B8FA1;
+text-decoration: none;
 }

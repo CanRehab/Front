@@ -1,94 +1,91 @@
-
-header {
+.header {
     position: fixed;
     width: 100%;
     height: 6%;
     display: flex;
     top: 0;
     background-color: #fff;
-}
-
-.links {
-    display: flex;
-    list-style: none;
-    margin-top: 10px;
-}
-
-.links a {
-    color: #848484;
-    text-decoration: none;
-    padding: -10px 15px 10px;
-    display: block;
-    min-width: 50px;
-    margin: -2px 20px;
-    font-size: 10px;
-    font-family: Arial, sans-serif;
-}
-
-.links a:hover {
-    color: #2cd98a;
-}
-
-.links a.active{
-    text-decoration:underline;
-    color: #2cd98a;
-
-}
-
-.leftnav:focus,
-.leftnav:hover {
-    cursor: pointer;
+    z-index: 1;
 }
 
 .logo-header {
     display: flex;
-    height: 25px;
+    height: 20px;
     width: 80px;
-    margin-top: 2px;
+    margin-top: 15px;
     margin-left: 8px;
     margin-right: 35px;
 }
 
-.leftheader {
+.links {
     display: flex;
-
+    margin-top: 20px;
 }
 
-.imgpuser {
-    position: absolute;
-    height: 25px;
-    width: 30px;
-    margin-left: 700px;
-    margin-top: 2px;
-    z-index: 10;
+.menu {
+    color: #848484;
+    text-decoration: none;
+    padding: -10px 15px 10px;
+    min-width: 50px;
+    margin: -2px 25px;
+    font-size: 10px;
+    font-family: var(--font-family);
+}
 
+.menu:hover {
+    color: #2cd98a;
+    text-decoration: underline solid;
+}
+
+.menu.active {
+    text-decoration: underline;
+    color: #2cd98a;
+}
+
+.leftheader {
+    display: flex;
+    margin-top: 2px;
+    margin-left: 850px;
 }
 
 .headericon {
     position: absolute;
-    width: 5px;
-    height: 5px;
-    margin-left: 630px;
-    margin-top: 2px;
-
+    width: 1px;
+    height: 1px;
 }
 
-.iconmenu{
-    position: fixed;
+.imgpuser {
+    position: absolute;
+    height: 35px;
+    width: 40px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+.headerline {
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    background: #e5edf0;
+    margin-left: 55px;
+}
+
+.iconmenu {
+    position: absolute;
     width: 260px;
     height: 360px;
     display: flex;
-    filter: drop-shadow(0px 2px 5px rgba(0,0,0,0.15 ));
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.15));
     background: #ffffff;
-    margin-left: 500px;
-    margin-top: 30px;
-    z-index: 10;
+    margin-left: -150px;
+    margin-top: 30px; 
 }
-.iconmenu h3{
+
+.iconmenu h3 {
     position: absolute;
     width: 97px;
     height: 14px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 17px;
     font-weight: 400;
     line-height: 12px;
@@ -97,44 +94,48 @@ header {
     color: #4d4f5c;
 }
 
-.boxicon1{
+.boxicon1 {
     position: absolute;
     width: 97px;
     height: 30px;
     background: #ffffff;
     margin-top: 30px;
-    
+
 }
 
-.boxicon2{
+.boxicon2 {
     position: absolute;
     width: 97px;
     height: 30px;
     background: #ffffff;
     margin-top: 85px;
 }
-.boxicon3{
+
+.boxicon3 {
     position: absolute;
     width: 97px;
     height: 30px;
     background: #ffffff;
     margin-top: 140px;
 }
-.boxicon4{
+
+.boxicon4 {
     position: absolute;
     width: 97px;
     height: 30px;
     background: #ffffff;
     margin-top: 190px;
 }
-.boxicon5{
+
+.boxicon5 {
     position: absolute;
     width: 97px;
     height: 30px;
     background: #ffffff;
     margin-top: 240px;
 }
-.boxicon6{
+
+.boxicon6 {
     position: absolute;
     width: 97px;
     height: 30px;
@@ -142,7 +143,7 @@ header {
     margin-top: 290px;
 }
 
-.lineicon{
+.lineicon {
     position: absolute;
     width: 230px;
     height: 1px;
@@ -153,7 +154,7 @@ header {
     margin-left: 10px;
 }
 
-.imgicon{
+.imgicon {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -161,11 +162,11 @@ header {
     margin-left: 20px;
 }
 
-.icontext{
+.icontext {
     position: absolute;
     width: 142px;
     height: 13px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 10px;
     font-weight: 400;
     line-height: 24px;
@@ -176,11 +177,11 @@ header {
     margin-left: 55px;
 }
 
-.icontime{
+.icontime {
     position: absolute;
     width: 50px;
-    height: 11px;  
-    font-family: Arial, Helvetica, sans-serif;
+    height: 11px;
+    font-family: var(--font-family);
     font-size: 10px;
     font-weight: 400;
     line-height: 13px;
@@ -191,36 +192,82 @@ header {
     margin-left: 55px;
 }
 
-.endicon{
+.endicon {
     margin-top: 345px;
     margin-left: 75px;
-
+    font-size: 10px;
 }
 
-.headerline {
+.imgmenu {
     position: absolute;
-    width: 1px;
-    height: 30px;
-    background: #e5edf0;
-    margin-left: 685px;
-    margin-top: auto;
+    width: 180px;
+    height:180px;
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.15));
+    margin-left: -60px;
+    margin-top: 40px;
+    background: #ffffff;
 }
 
-.imgmenu{
+.imgbox1{
+    background: #ffffff;
     position: absolute;
-    width: 199px;
-    height: 196.3px;
-    filter: drop-shadow(0px 2px 5px rgba(0,0,0,0.15 ));
-    margin-left: 550px;
-    margin-top: 30px;
-        background: #ffffff
-}
-
-.sec{
-    position: fixed;
     display: flex;
-    background-color: #e9f9f4;
-    width: 100%;
-    height: 100%;
-    margin-top: 30px;
+    width: 80px;
+    height: 40px;
+    margin-top: 0px;
+    margin-left: 45px;
+}
+ 
+.imgbox1 h5{
+    
+    margin-right: 5px;
+}
+.imgbox2{
+    position: absolute;
+    display: flex;
+    width: 80px;
+    height: 40px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+.imgbox3{
+    position: absolute;
+    display: flex;
+    width: 80px;
+    height: 40px;
+    margin-top: 90px;
+    margin-left: 45px;
+}
+
+.imgbox4{
+    position: absolute;
+    display: flex;
+    width: 80px;
+    height: 40px;
+    margin-top: 120px;
+    margin-left: 45px;
+
+}
+
+.imgtext{
+    font-family: var(--font-family);
+    font-size: 11px;
+    font-weight: 40;
+    line-height: 24px;
+    margin-top: 22px;
+    font-style: solid;
+    text-align: center;
+    color: #4d565c;
+}
+
+.imgline{
+    position: absolute;
+    width: 140px;
+    height: 1px;
+    margin-left: -30px;
+    margin-top: 50px;
+    border-color: #f1f1f3;
+    border-width: 1px;
+    border-style: solid;
 }
